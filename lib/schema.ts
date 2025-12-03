@@ -13,8 +13,10 @@ export function generateLocalBusinessSchema() {
     email: BUSINESS_INFO.email,
     address: {
       "@type": "PostalAddress",
+      streetAddress: BUSINESS_INFO.address.street,
       addressLocality: BUSINESS_INFO.address.city,
       addressRegion: BUSINESS_INFO.address.state,
+      postalCode: BUSINESS_INFO.address.zip,
       addressCountry: BUSINESS_INFO.address.country,
     },
     geo: {

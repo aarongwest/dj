@@ -6,8 +6,10 @@ export const BUSINESS_INFO = {
   email: "mail@djisaacv.com",
   website: "https://www.djisaacv.com",
   address: {
-    city: "Los Angeles",
+    street: "11302 Orr and Day Rd.",
+    city: "Norwalk",
     state: "CA",
+    zip: "90650",
     country: "US",
   },
   social: {

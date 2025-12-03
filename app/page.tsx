@@ -2,11 +2,25 @@ import { BUSINESS_INFO, SERVICES, STATS, WHY_CHOOSE_US, TESTIMONIALS, FAQ_ITEMS,
 import { formatPhoneForTel } from "@/lib/utils";
 import { Phone, Mail, MapPin, Star, Check, ExternalLink } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { generateFAQSchema, generateReviewSchema } from "@/lib/schema";
 import Image from "next/image";
 
 export default function Home() {
+  const faqSchema = generateFAQSchema(FAQ_ITEMS);
+  const reviewSchema = generateReviewSchema();
+
   return (
     <main className="min-h-screen bg-white dark:bg-zinc-950">
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      {/* Review Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
+      />
       {/* Navigation */}
       <nav className="sticky top-0 w-full bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

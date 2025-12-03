@@ -11,6 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(BUSINESS_INFO.website),
   title: `${BUSINESS_INFO.name} | ${BUSINESS_INFO.tagline}`,
   description: `Professional DJ, MC, Photo Booth, and Photography services for weddings, Sweet 16 and 15th birthday celebrations, corporate events, and private parties in Los Angeles and Orange County. ${BUSINESS_INFO.yearsExperience} years of experience with ${BUSINESS_INFO.reviewCount}+ five-star reviews.`,
   keywords: [
@@ -20,10 +21,18 @@ export const metadata: Metadata = {
     "Corporate Event DJ",
     "Photo Booth Rental",
     "Event Photography",
-    "Bilingual DJ",
     "Los Angeles DJ",
     "Orange County DJ",
+    "DJ near me",
+    "Event DJ Los Angeles",
+    "Orange County event DJ",
+    "Beverly Hills DJ",
+    "Newport Beach DJ",
+    "Norwalk DJ",
   ],
+  alternates: {
+    canonical: BUSINESS_INFO.website,
+  },
   openGraph: {
     title: BUSINESS_INFO.name,
     description: BUSINESS_INFO.tagline,
@@ -36,6 +45,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: BUSINESS_INFO.name,
     description: BUSINESS_INFO.tagline,
+  },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "Norwalk",
+    "geo.position": "33.835649;-118.0405815",
+    "ICBM": "33.835649, -118.0405815",
   },
 };
 
