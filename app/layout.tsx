@@ -14,6 +14,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(BUSINESS_INFO.website),
   title: `${BUSINESS_INFO.name} | ${BUSINESS_INFO.tagline}`,
   description: `Professional DJ, MC, Photo Booth, and Photography services for weddings, Sweet 16 and 15th birthday celebrations, corporate events, and private parties in Los Angeles and Orange County. ${BUSINESS_INFO.yearsExperience} years of experience with ${BUSINESS_INFO.reviewCount}+ five-star reviews.`,
+  icons: {
+    icon: '/dj-isaac-v-ico.png',
+    shortcut: '/dj-isaac-v-ico.png',
+    apple: '/dj-isaac-v-ico.png',
+  },
   keywords: [
     "DJ services Los Angeles",
     "Wedding DJ Orange County",
