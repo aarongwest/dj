@@ -44,11 +44,11 @@ export const SERVICES = [
   },
   {
     id: "quinceanera-dj",
-    title: "Sweet 15 / 15th Birthday DJ Services",
+    title: "Sweet 16 / 15th Birthday DJ Services",
     slug: "quinceanera-dj",
     icon: "👑",
     shortDescription: "Celebrate this milestone with professional entertainment",
-    description: "Professional DJ services specializing in Sweet 15 and 15th birthday celebrations. We understand the traditions and provide the perfect mix of music for all generations.",
+    description: "Professional DJ services specializing in Sweet 16 and 15th birthday celebrations. We understand the traditions and provide the perfect mix of music for all generations.",
     features: [
       "Professional MC Services",
       "Traditional Ceremony Music",
@@ -268,7 +268,7 @@ export const FAQ_ITEMS = [
   },
   {
     question: "Do you play Latin music?",
-    answer: "Yes! We play all genres including Latin music, making us perfect for Sweet 15 celebrations, Latin weddings, and multicultural events.",
+    answer: "Yes! We play all genres including Latin music, making us perfect for Sweet 16, 15th birthday celebrations, Latin weddings, and multicultural events.",
   },
   {
     question: "Do you have backup equipment?",
