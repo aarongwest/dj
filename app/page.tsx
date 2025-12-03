@@ -430,20 +430,31 @@ export default function Home() {
               <h4 className="text-sm font-semibold text-zinc-900 dark:text-white mb-3">Contact</h4>
               <ul className="space-y-2">
                 <li className="flex items-center text-sm text-zinc-600 dark:text-zinc-400">
-                  <Phone className="w-4 h-4 mr-2" />
+                  <Phone className="w-4 h-4 mr-2 flex-shrink-0" />
                   <a href={`tel:${formatPhoneForTel(BUSINESS_INFO.phone)}`} className="hover:text-zinc-900 dark:hover:text-white transition">
                     {BUSINESS_INFO.phone}
                   </a>
                 </li>
                 <li className="flex items-center text-sm text-zinc-600 dark:text-zinc-400">
-                  <Mail className="w-4 h-4 mr-2" />
+                  <Mail className="w-4 h-4 mr-2 flex-shrink-0" />
                   <a href={`mailto:${BUSINESS_INFO.email}`} className="hover:text-zinc-900 dark:hover:text-white transition">
                     {BUSINESS_INFO.email}
                   </a>
                 </li>
                 <li className="flex items-start text-sm text-zinc-600 dark:text-zinc-400">
-                  <MapPin className="w-4 h-4 mr-2 mt-0.5" />
-                  <span>Los Angeles & Orange County, CA</span>
+                  <MapPin className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0" />
+                  <a 
+                    href="https://maps.google.com/?q=11302+Orr+and+Day+Rd+Norwalk+CA+90650" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-zinc-900 dark:hover:text-white transition"
+                  >
+                    <span className="block">{BUSINESS_INFO.address.street}</span>
+                    <span className="block">{BUSINESS_INFO.address.city}, {BUSINESS_INFO.address.state} {BUSINESS_INFO.address.zip}</span>
+                  </a>
+                </li>
+                <li className="text-xs text-zinc-500 dark:text-zinc-600 mt-2">
+                  Serving Los Angeles & Orange County
                 </li>
               </ul>
             </div>
