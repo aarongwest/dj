@@ -44,13 +44,13 @@ export const SERVICES = [
   },
   {
     id: "quinceanera-dj",
-    title: "Quinceañera DJ Services",
+    title: "Sweet 15 / 15th Birthday DJ Services",
     slug: "quinceanera-dj",
     icon: "👑",
-    shortDescription: "Celebrate this milestone with authentic bilingual entertainment",
-    description: "Bilingual DJ services specializing in quinceañeras. We understand the traditions and provide the perfect mix of music for all generations.",
+    shortDescription: "Celebrate this milestone with professional entertainment",
+    description: "Professional DJ services specializing in Sweet 15 and 15th birthday celebrations. We understand the traditions and provide the perfect mix of music for all generations.",
     features: [
-      "Bilingual MC Services",
+      "Professional MC Services",
       "Traditional Ceremony Music",
       "Latin & American Mix",
       "Dance Floor Lighting",
@@ -267,8 +267,8 @@ export const FAQ_ITEMS = [
     answer: "Yes! We offer a revolutionary digital photo booth with instant sharing, GIF creation, custom backdrops, props, and unlimited sessions. It's a perfect addition to any event!",
   },
   {
-    question: "Are you bilingual?",
-    answer: "Yes! We offer bilingual services in English and Spanish, making us perfect for quinceañeras, Latin weddings, and multicultural events.",
+    question: "Do you play Latin music?",
+    answer: "Yes! We play all genres including Latin music, making us perfect for Sweet 15 celebrations, Latin weddings, and multicultural events.",
   },
   {
     question: "Do you have backup equipment?",
@@ -312,8 +312,8 @@ export const WHY_CHOOSE_US = [
   },
   {
     icon: "🌎",
-    title: "Bilingual Services",
-    description: "English and Spanish MC services for multicultural events",
+    title: "Multicultural Events",
+    description: "Professional MC services for diverse and multicultural events",
   },
   {
     icon: "✅",

@@ -7,7 +7,7 @@ export function generateLocalBusinessSchema() {
     "@id": BUSINESS_INFO.website,
     name: BUSINESS_INFO.name,
     image: `${BUSINESS_INFO.website}/images/logo.png`,
-    description: `${BUSINESS_INFO.tagline}. Professional DJ, MC, Photo Booth, and Photography services for weddings, quinceañeras, corporate events, and private parties in Los Angeles and Orange County.`,
+    description: `${BUSINESS_INFO.tagline}. Professional DJ, MC, Photo Booth, and Photography services for weddings, Sweet 15 celebrations, corporate events, and private parties in Los Angeles and Orange County.`,
     url: BUSINESS_INFO.website,
     telephone: BUSINESS_INFO.phone,
     email: BUSINESS_INFO.email,

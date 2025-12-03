@@ -12,11 +12,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: `${BUSINESS_INFO.name} | ${BUSINESS_INFO.tagline}`,
-  description: `Professional DJ, MC, Photo Booth, and Photography services for weddings, quinceañeras, corporate events, and private parties in Los Angeles and Orange County. ${BUSINESS_INFO.yearsExperience} years of experience with ${BUSINESS_INFO.reviewCount}+ five-star reviews.`,
+  description: `Professional DJ, MC, Photo Booth, and Photography services for weddings, Sweet 15 celebrations, corporate events, and private parties in Los Angeles and Orange County. ${BUSINESS_INFO.yearsExperience} years of experience with ${BUSINESS_INFO.reviewCount}+ five-star reviews.`,
   keywords: [
     "DJ services Los Angeles",
     "Wedding DJ Orange County",
-    "Quinceañera DJ",
+    "Sweet 15 DJ",
     "Corporate Event DJ",
     "Photo Booth Rental",
     "Event Photography",

@@ -164,7 +164,7 @@ export default function Home() {
               {/* Event Type Pills */}
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-pink text-accent-pink rounded">Weddings</span>
-                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-purple-700 dark:border-accent-lime text-purple-700 dark:text-accent-lime rounded">Quinceañeras</span>
+                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-purple-700 dark:border-accent-lime text-purple-700 dark:text-accent-lime rounded">Sweet 15</span>
                 <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-orange text-accent-orange rounded">Anniversaries</span>
                 <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-pink text-accent-pink rounded">Corporate Events</span>
                 <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-purple-700 dark:border-accent-lime text-purple-700 dark:text-accent-lime rounded">Birthday Parties</span>
@@ -436,7 +436,7 @@ export default function Home() {
           </div>
           <div className="border-t border-zinc-200 dark:border-zinc-800 pt-8 text-center">
             <p className="text-sm text-zinc-600 dark:text-zinc-400">&copy; {new Date().getFullYear()} {BUSINESS_INFO.name}. All rights reserved.</p>
-            <p className="mt-1 text-xs text-zinc-500">Professional DJ Services | Weddings | Quinceañeras | Corporate Events | Photo Booth Rental</p>
+            <p className="mt-1 text-xs text-zinc-500">Professional DJ Services | Weddings | Sweet 15 | Corporate Events | Photo Booth Rental</p>
           </div>
         </div>
       </footer>
