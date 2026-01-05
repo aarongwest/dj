@@ -179,13 +179,14 @@ export default function Home() {
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-pink text-accent-pink rounded">Weddings</span>
                 <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-purple-700 dark:border-accent-lime text-purple-700 dark:text-accent-lime rounded">Sweet 16</span>
-                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-orange text-accent-orange rounded">Anniversaries</span>
-                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-pink text-accent-pink rounded">Corporate Events</span>
-                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-purple-700 dark:border-accent-lime text-purple-700 dark:text-accent-lime rounded">Birthday Parties</span>
-                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-orange text-accent-orange rounded">Graduations</span>
-                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-pink text-accent-pink rounded">School Dances</span>
-                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-purple-700 dark:border-accent-lime text-purple-700 dark:text-accent-lime rounded">Private Parties</span>
-                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-orange text-accent-orange rounded">Holiday Events</span>
+                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-orange text-accent-orange rounded">Quinceañera / Debutante</span>
+                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-pink text-accent-pink rounded">Anniversaries</span>
+                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-purple-700 dark:border-accent-lime text-purple-700 dark:text-accent-lime rounded">Corporate Events</span>
+                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-orange text-accent-orange rounded">Birthday Parties</span>
+                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-pink text-accent-pink rounded">Graduations</span>
+                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-purple-700 dark:border-accent-lime text-purple-700 dark:text-accent-lime rounded">School Dances</span>
+                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-orange text-accent-orange rounded">Private Parties</span>
+                <span className="px-3 py-1 text-xs font-medium bg-transparent border border-dashed border-accent-pink text-accent-pink rounded">Holiday Events</span>
               </div>
             </div>
           </div>
