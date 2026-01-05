@@ -426,6 +426,9 @@ export default function Home() {
                 <a href={BUSINESS_INFO.social.facebook} target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition">
                   Facebook
                 </a>
+                <a href="https://www.thumbtack.com/ca/norwalk/bands-for-hire/dj-isaac-v-premier-5-star-dj-service/service/457508755788832782" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition">
+                  Thumbtack
+                </a>
               </div>
             </div>
             <div>
@@ -467,6 +470,23 @@ export default function Home() {
                 </li>
                 <li className="text-xs text-zinc-500 dark:text-zinc-600 mt-2">
                   Serving Los Angeles & Orange County
+                </li>
+                <li className="mt-4">
+                  <div className="widget" id="tt-review-widget-star">
+                    <img src="https://cdn.thumbtackstatic.com/fe-assets-web/media/logos/thumbtack/wordmark.svg" alt="Thumbtack" className="tt-logo" />
+                    <a target="_blank" href="https://www.thumbtack.com/ca/norwalk/bands-for-hire/dj-isaac-v-premier-5-star-dj-service/service/457508755788832782">
+                      <div>DJ Isaac V Premier 5-Star DJ Service</div>
+                    </a>
+                    <div id="tt-dynamic">
+                      <img src="https://cdn.thumbtackstatic.com/fe-assets-web/media/pages/profile/standard-widgets/review-widget/orange_star.svg" alt="star" />
+                      <img src="https://cdn.thumbtackstatic.com/fe-assets-web/media/pages/profile/standard-widgets/review-widget/orange_star.svg" alt="star" />
+                      <img src="https://cdn.thumbtackstatic.com/fe-assets-web/media/pages/profile/standard-widgets/review-widget/orange_star.svg" alt="star" />
+                      <img src="https://cdn.thumbtackstatic.com/fe-assets-web/media/pages/profile/standard-widgets/review-widget/orange_star.svg" alt="star" />
+                      <img src="https://cdn.thumbtackstatic.com/fe-assets-web/media/pages/profile/standard-widgets/review-widget/orange_star.svg" alt="star" />
+                      <span>74 reviews</span>
+                    </div>
+                    <script src="https://www.thumbtack.com/profile/widgets/scripts/?service_pk=457508755788832782&widget_id=review&type=star"></script>
+                  </div>
                 </li>
               </ul>
             </div>
