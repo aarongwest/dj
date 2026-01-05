@@ -128,6 +128,23 @@ export const SERVICES = [
     price: "Starting at $500",
     image: "/images/services/photography.jpg",
   },
+  {
+    id: "memorial-services",
+    title: "Memorial & Celebration of Life Services",
+    slug: "memorial-services",
+    icon: "🕊️",
+    shortDescription: "Life deserves to be honored with dignity, intention, and heart",
+    description: "In addition to weddings, corporate events, and private celebrations, DJ Isaac V Entertainment offers Memorial and Celebration of Life services designed to respectfully honor loved ones while celebrating the moments that made them unforgettable. These services are thoughtfully curated to create a meaningful atmosphere—whether intimate and reflective or warm and uplifting—through carefully selected music, professional sound support, and seamless coordination. From entrance music and spoken tributes to closing moments of remembrance, every detail is handled with care, sensitivity, and professionalism. This is more than event support—it's about creating space for remembrance, connection, and healing.",
+    features: [
+      "Customized music selection reflecting your loved one's life and legacy",
+      "Professional sound system for speeches, readings, and tributes",
+      "Microphone support for family and guests",
+      "Discreet setup, coordination, and on-site support",
+      "Calm, respectful presence from start to finish",
+    ],
+    price: "Contact for pricing",
+    image: "/images/services/memorial.jpg",
+  },
 ];
 
 // Service Areas
