@@ -37,6 +37,17 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-3">
               <a 
+                href="https://www.thumbtack.com/ca/norwalk/bands-for-hire/dj-isaac-v-premier-5-star-dj-service/service/457508755788832782" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hidden sm:flex items-center text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition"
+                title="View our Thumbtack reviews"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.5 2.474c-2.126 0-3.88 1.637-4.086 3.718H9.682c-.206-2.081-1.96-3.718-4.086-3.718C3.47 2.474 1.5 4.444 1.5 6.57c0 1.838 1.29 3.374 3.014 3.76v10.196c0 .828.672 1.5 1.5 1.5s1.5-.672 1.5-1.5V10.33c1.724-.386 3.014-1.922 3.014-3.76 0-.414-.067-.813-.19-1.188h3.324c-.123.375-.19.774-.19 1.188 0 1.838 1.29 3.374 3.014 3.76v10.196c0 .828.672 1.5 1.5 1.5s1.5-.672 1.5-1.5V10.33c1.724-.386 3.014-1.922 3.014-3.76 0-2.126-1.97-4.096-4.096-4.096z"/>
+                </svg>
+              </a>
+              <a 
                 href="https://www.youtube.com/@djisaacventertainment4381" 
                 target="_blank" 
                 rel="noopener noreferrer"
