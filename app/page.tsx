@@ -227,22 +227,36 @@ export default function Home() {
             href="https://posts.gle/Rqzw4KrnWYXTa87S6" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="block bg-white dark:bg-zinc-900 rounded-xl border-2 border-zinc-200 dark:border-zinc-800 p-8 text-center hover:border-purple-700 dark:hover:border-accent-lime hover:shadow-2xl transition-all duration-300 group"
+            className="relative block bg-white dark:bg-zinc-900 rounded-xl border-2 border-zinc-200 dark:border-zinc-800 p-8 text-center hover:border-purple-700 dark:hover:border-accent-lime hover:shadow-2xl transition-all duration-300 group overflow-hidden"
           >
-            <div className="mb-4">
-              <svg className="w-20 h-20 mx-auto text-zinc-400 dark:text-zinc-600 group-hover:text-purple-700 dark:group-hover:text-accent-lime transition-all duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
+            {/* Decorative confetti elements */}
+            <div className="absolute top-4 left-8 w-3 h-3 bg-accent-pink rounded-full opacity-60"></div>
+            <div className="absolute top-12 left-16 w-2 h-6 bg-accent-lime rotate-45 opacity-50"></div>
+            <div className="absolute top-6 right-12 w-4 h-4 bg-accent-orange rounded-sm rotate-12 opacity-60"></div>
+            <div className="absolute top-16 right-20 w-2 h-2 bg-purple-700 dark:bg-accent-lime rounded-full opacity-50"></div>
+            <div className="absolute bottom-12 left-12 w-3 h-8 bg-accent-orange rotate-[-20deg] opacity-50"></div>
+            <div className="absolute bottom-8 left-24 w-4 h-4 bg-accent-pink rounded-full opacity-60"></div>
+            <div className="absolute bottom-16 right-16 w-2 h-6 bg-purple-700 dark:bg-accent-lime rotate-[-45deg] opacity-50"></div>
+            <div className="absolute bottom-6 right-8 w-3 h-3 bg-accent-orange rounded-sm rotate-45 opacity-60"></div>
+            <div className="absolute top-1/3 left-6 w-2 h-5 bg-accent-pink rotate-12 opacity-50"></div>
+            <div className="absolute top-2/3 right-10 w-3 h-3 bg-accent-lime rounded-full opacity-60"></div>
+            
+            <div className="relative z-10">
+              <div className="mb-4">
+                <svg className="w-20 h-20 mx-auto text-zinc-400 dark:text-zinc-600 group-hover:text-purple-700 dark:group-hover:text-accent-lime transition-all duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-zinc-900 dark:text-white mb-2">Watch DJ Isaac V's Latest Performance</h4>
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">Experience the energy and professionalism that sets us apart</p>
+              <span className="inline-flex items-center text-sm font-medium text-purple-700 dark:text-accent-lime group-hover:underline">
+                Watch Video
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </span>
             </div>
-            <h4 className="text-xl font-semibold text-zinc-900 dark:text-white mb-2">Watch DJ Isaac V's Latest Performance</h4>
-            <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">Experience the energy and professionalism that sets us apart</p>
-            <span className="inline-flex items-center text-sm font-medium text-purple-700 dark:text-accent-lime group-hover:underline">
-              Watch Video
-              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-            </span>
           </a>
         </div>
         {/* Decorative background elements */}
