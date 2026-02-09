@@ -218,6 +218,39 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="relative py-16 overflow-hidden bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50 dark:from-zinc-900 dark:via-purple-950/20 dark:to-pink-950/20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <h3 className="text-3xl font-bold text-zinc-900 dark:text-white mb-2 text-center">See DJ Isaac V in Action</h3>
+          <p className="text-zinc-600 dark:text-zinc-400 mb-8 text-center">Watch our latest performance and see why clients love us</p>
+          <a 
+            href="https://posts.gle/Rqzw4KrnWYXTa87S6" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="block bg-white dark:bg-zinc-900 rounded-xl border-2 border-zinc-200 dark:border-zinc-800 p-8 text-center hover:border-purple-700 dark:hover:border-accent-lime hover:shadow-2xl transition-all duration-300 group"
+          >
+            <div className="mb-4">
+              <svg className="w-20 h-20 mx-auto text-zinc-400 dark:text-zinc-600 group-hover:text-purple-700 dark:group-hover:text-accent-lime transition-all duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h4 className="text-xl font-semibold text-zinc-900 dark:text-white mb-2">Watch DJ Isaac V's Latest Performance</h4>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">Experience the energy and professionalism that sets us apart</p>
+            <span className="inline-flex items-center text-sm font-medium text-purple-700 dark:text-accent-lime group-hover:underline">
+              Watch Video
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </span>
+          </a>
+        </div>
+        {/* Decorative background elements */}
+        <div className="absolute top-0 left-0 w-72 h-72 bg-purple-300 dark:bg-purple-900 rounded-full mix-blend-multiply dark:mix-blend-soft-light filter blur-3xl opacity-20 animate-blob"></div>
+        <div className="absolute top-0 right-0 w-72 h-72 bg-pink-300 dark:bg-pink-900 rounded-full mix-blend-multiply dark:mix-blend-soft-light filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        <div className="absolute bottom-0 left-1/2 w-72 h-72 bg-orange-300 dark:bg-orange-900 rounded-full mix-blend-multiply dark:mix-blend-soft-light filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+      </section>
+
       {/* Services */}
       <section id="services" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -265,41 +298,13 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="mb-12">
-            <div className="grid md:grid-cols-2 gap-8">
-              {WHY_CHOOSE_US.map((item, index) => (
-                <div key={index}>
-                  <h3 className="text-base font-semibold text-zinc-900 dark:text-white mb-2">{item.title}</h3>
-                  <p className="text-sm text-zinc-600 dark:text-zinc-400">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Video Section */}
-          <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-zinc-900 dark:text-white mb-4 text-center">See DJ Isaac V in Action</h3>
-            <a 
-              href="https://posts.gle/Rqzw4KrnWYXTa87S6" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="block bg-white dark:bg-zinc-900 rounded-lg border-2 border-zinc-200 dark:border-zinc-800 p-8 text-center hover:border-purple-700 dark:hover:border-accent-lime transition group"
-            >
-              <div className="mb-4">
-                <svg className="w-16 h-16 mx-auto text-zinc-400 dark:text-zinc-600 group-hover:text-purple-700 dark:group-hover:text-accent-lime transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+          <div className="grid md:grid-cols-2 gap-8">
+            {WHY_CHOOSE_US.map((item, index) => (
+              <div key={index}>
+                <h3 className="text-base font-semibold text-zinc-900 dark:text-white mb-2">{item.title}</h3>
+                <p className="text-sm text-zinc-600 dark:text-zinc-400">{item.description}</p>
               </div>
-              <h4 className="text-lg font-semibold text-zinc-900 dark:text-white mb-2">Watch DJ Isaac V's Latest Performance</h4>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">Click to view the video on Google</p>
-              <span className="inline-flex items-center text-sm font-medium text-purple-700 dark:text-accent-lime group-hover:underline">
-                Watch Video
-                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </span>
-            </a>
+            ))}
           </div>
         </div>
       </section>
