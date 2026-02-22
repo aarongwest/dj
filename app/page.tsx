@@ -2,6 +2,7 @@ import { BUSINESS_INFO, SERVICES, STATS, WHY_CHOOSE_US, TESTIMONIALS, FAQ_ITEMS,
 import { formatPhoneForTel } from "@/lib/utils";
 import { Phone, Mail, MapPin, Star, Check, ExternalLink } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { ContactModal } from "@/components/contact-modal";
 import { generateFAQSchema, generateReviewSchema } from "@/lib/schema";
 import Image from "next/image";
 
@@ -413,9 +414,9 @@ export default function Home() {
               <Phone className="w-4 h-4 mr-2" />
               {BUSINESS_INFO.phone}
             </a>
-            <a href={`mailto:${BUSINESS_INFO.email}`} className="inline-flex items-center justify-center bg-transparent text-zinc-900 dark:text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-zinc-50 dark:hover:bg-zinc-800 transition border-2 border-accent-pink">
+            <a href="#contact" className="inline-flex items-center justify-center bg-transparent text-zinc-900 dark:text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-zinc-50 dark:hover:bg-zinc-800 transition border-2 border-accent-pink">
               <Mail className="w-4 h-4 mr-2" />
-              Email Us
+              Message Us
             </a>
           </div>
           <div className="flex items-center justify-center text-sm text-zinc-600 dark:text-zinc-400">
@@ -516,6 +517,8 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      <ContactModal />
     </main>
   );
 }
