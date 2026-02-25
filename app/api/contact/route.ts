@@ -1,7 +1,13 @@
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 import { NextRequest, NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASSWORD,
+  },
+});
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
@@ -12,9 +18,10 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    await resend.emails.send({
-      from: "DJ Isaac V Website <onboarding@resend.dev>",
-      to: "mail@djisaacv.com",
+    await transporter.sendMail({
+      from: `"DJ Isaac V Website" <${process.env.GMAIL_USER}>`,
+      to: process.env.GMAIL_USER,
+      replyTo: email,
       subject: `New Booking Inquiry: ${eventType || "Event"} from ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
@@ -38,7 +45,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Resend error:", error);
+    console.error("Gmail error:", error);
     return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
   }
 }
